@@ -8,7 +8,7 @@ Scenario: Get token
         And request {"documentNumber":"#(documentNumber)", "password": "#(userPassword)", "rememberMe": true}
         When method Post
         Then status 200
-        * def access_token = response.access_tokens
+        * def access_token = response.access_token
         * def token_type = response.token_type
-        * def aplication_token = response.aplication_token
+        * def application_token = response.application_token
         * def refresh_token = response.refresh_token
