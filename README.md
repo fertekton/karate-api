@@ -20,5 +20,7 @@ Follow this tutorial: https://www.tutorialspoint.com/maven/maven_environment_set
 6. Execute the command: ```mvn test```
 
 7. See reports at:
-Karate default report: /target/karate-reports/karate-summary.html
-Cucumber Report: /target/cucumber-html-reports/overview-features.html
+- Karate default report: 
+```/target/karate-reports/karate-summary.html```
+- Cucumber Report: 
+```/target/cucumber-html-reports/overview-features.html```
